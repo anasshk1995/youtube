@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Terrain Trails - Adventures, travel vlogs, and more. Subscribe now to stay updated!">
+    <title>Terrain Trails</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        header p {
+            font-size: 1.5rem;
+        }
+        .subscribe-button {
+            background-color: #ff0000;
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            margin-top: 1.5rem;
+        }
+        .subscribe-button:hover {
+            background-color: #cc0000;
+        }
+        nav {
+            background: #333;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 2rem;
+        }
+        .video-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .video {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .video iframe {
+            width: 100%;
+            height: 200px;
+            display: block;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        footer p {
+            margin: 0;
+        }
+        .blog-posts {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        .blog-post {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .blog-post h3 {
+            margin: 0 0 1rem;
+        }
+        .blog-post p {
+            margin: 0 0 1rem;
+        }
+        .blog-post a {
+            color: #ff0000;
+            text-decoration: none;
+        }
+        .blog-post a:hover {
+            text-decoration: underline;
+        }
+        .spotlight {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .spotlight img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .spotlight h2 {
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Terrain Trails</h1>
+        <p>Discover amazing adventures and travel vlogs!</p>
+        <a href="https://www.youtube.com/@TerrainTrails" target="_blank">
+            <button class="subscribe-button">Subscribe on YouTube</button>
+        </a>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="videos.html">Videos</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="spotlight">
+        <img src="https://via.placeholder.com/1200x400" alt="Spotlight Image">
+        <h2>Join Our Latest Adventure!</h2>
+        <p>Don’t miss out on our thrilling expeditions and travel tips.</p>
+        <a href="https://www.youtube.com/@TerrainTrails" target="_blank">
+            <button class="subscribe-button">Watch Now</button>
+        </a>
+    </div>
+
+    <div class="content">
+        <h2>Latest Videos</h2>
+        <div class="video-gallery">
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/your-latest-video-id" title="Latest Video" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/another-video-id" title="Video 2" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/yet-another-video-id" title="Video 3" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Terrain Trails. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!-- Additional Pages -->
+
+<!-- About Page -->
+<div id="about.html">
+    <header>
+        <h1>About Terrain Trails</h1>
+        <p>Welcome to Terrain Trails, where we share our love for adventure and travel. Join us as we explore the world one trail at a time!</p>
+    </header>
+</div>
+
+<!-- Blog Page -->
+<div id="blog.html">
+    <header>
+        <h1>Terrain Trails Blog</h1>
+        <p>Read about our latest adventures and travel tips!</p>
+    </header>
+    <div class="content blog-posts">
+        <div class="blog-post">
+            <h3>Exploring the Mountains</h3>
+            <p>A detailed account of our most recent mountain adventure.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="blog-post">
+            <h3>Top Travel Tips</h3>
+            <p>Tips and tricks to make your journeys smoother.</p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Page -->
+<div id="contact.html">
+    <header>
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Drop us a message below.</p>
+    </header>
+    <div class="content">
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</div>
